@@ -1,4 +1,3 @@
-ENGLISH SENTENCES	ARABIC SENTENCES	BANGLA SENTENCES	CHINESE SENTENCES	FRENCH SENTENCES	HATIAN CREOLE SENTENCE	MALAY SENTENCES	B_PORTUGUESE SENTENCES	RUSSIAN SENTENCES	SPANISH SENTENCES	SWAHILI  SENTENCES	TAMIL SENTENCES	THAI SENTENCES	URDU SENTENCE
 I am Bob.	أنـا بـوب.	আমি বব	我是Bob。	Je suis Bob.	Mwen se Bob.	Saya Bob.	Eu sou Bob.	Я Боб	Yo soy Bob.	Mimi ni Bob	நான் Bob.	ฉันชื่อบ๊อบ	میں باب ہوں۔
 This is an egg.	هذه بـيـضـة	এইটা একটি ডিম	这是一个鸡蛋。	Ceci est un oeuf.	Sa se yon ze.	Ini telur.	Este é um ovo.	Это яйцо.	Este es un huevo.	Hili ni yai	இது ஒரு முட்டை.	นี่คือไข่	یہ ایک انڈا ہے۔
 Look at it.	أنـظـر إلى ذلك	এইদিকে দেখো	看向它。	Regarde à ça.	Gade l'.	Lihatlah.	Olhe para isso.	Посмотри на это.	Véanlo.	Iangalie / Muangalie (mnyama) / Liangalie / Kiangalie	அதை பாருங்கள்.	ดูมันสิ	اس کی طرف دیکھیں۔
