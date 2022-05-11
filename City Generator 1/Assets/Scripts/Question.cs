@@ -71,7 +71,7 @@ public class Question : MonoBehaviour
 
             if (count == (questionData.correctAnswer + 1))
             {
-                Destroy(transform.GetChild(0).GetComponent<QuestionTextElement>());
+                Destroy(transform.parent.GetChild(0).GetComponent<QuestionTextElement>());
             }
             else
             {

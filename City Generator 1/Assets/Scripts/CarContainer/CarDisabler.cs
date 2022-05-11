@@ -54,6 +54,20 @@ public class CarDisabler : MonoBehaviour
     {
         foreach(Transform transform in transform)
         {
+            MeshRenderer renderer;
+
+            if (transform.TryGetComponent(out renderer))
+            {
+                transform.GetComponent<MeshRenderer>().enabled = true;
+            }
+        }
+
+        trafficCar.enabled = true;
+        //trafficCar.InvokeRepeating(nameof(trafficCar.MoveCar), 0.02f, 0.02f);
+
+        /*
+        foreach(Transform transform in transform)
+        {
             transform.gameObject.SetActive(true);
         }
         GetComponent<Rigidbody>().isKinematic = false;
@@ -61,10 +75,25 @@ public class CarDisabler : MonoBehaviour
         trafficCar.enabled = true;
 
         trafficCar.InvokeRepeating(nameof(trafficCar.MoveCar), 0.02f, 0.02f);
+        */
+        //trafficCar.InvokeRepeating(nameof(trafficCar.MoveCar), 0.02f, 0.02f);
     }
 
     private void Disable()
     {
+        foreach (Transform transform in transform)
+        {
+            MeshRenderer renderer;
+
+            if (transform.TryGetComponent(out renderer))
+            {
+                transform.GetComponent<MeshRenderer>().enabled = false;
+            }
+        }
+        //trafficCar.CancelInvoke();
+        trafficCar.enabled = false;
+
+        /*
         foreach (Transform transform in transform)
         {
             transform.gameObject.SetActive(false);
@@ -72,6 +101,7 @@ public class CarDisabler : MonoBehaviour
         GetComponent<Rigidbody>().isKinematic = true;
         trafficCar.enabled = false;
         trafficCar.CancelInvoke();
+        */
     }
 
 }
